@@ -1,0 +1,22 @@
+{
+  "description": "Search grocery stores at WS Junction",
+  "manifest_version": 2,
+  "name": "Junction stores",
+  "version": "1.0",
+  "homepage_url": "https://github.com/ianmatic",
+  "icons": {
+    "48": "icons/logo.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/logo.png",
+    "default_title": "Junction Stores",
+    "default_popup": "junction_stores.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ]
+}
